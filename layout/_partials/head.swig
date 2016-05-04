@@ -12,6 +12,10 @@
   <meta name="google-site-verification" content="{{ theme.google_site_verification }}" />
 {% endif %}
 
+{% if theme.ms_site_verification %}
+  <meta name="msvalidate.01" content="{{ theme.ms_site_verification }}" />
+{% endif %}
+
 {% if theme.sogou_site_verification %}
 <meta name="sogou_site_verification" content="{{ theme.sogou_site_verification }}"/>
 {% endif %}
