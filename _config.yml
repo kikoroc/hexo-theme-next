@@ -261,6 +261,9 @@ duoshuo_share: true
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
+sogou_site_verification: kCeD6iIyca
+baidu_site_verification: fG9XIkTI0Y
+qihu_site_verification: e7723e0b265664f01d5b979e8c588b38
 
 
 # Google Analytics

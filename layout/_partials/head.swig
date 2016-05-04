@@ -12,6 +12,9 @@
   <meta name="google-site-verification" content="{{ theme.google_site_verification }}" />
 {% endif %}
 
+{% if theme.sogou_site_verification %}
+<meta name="sogou_site_verification" content="{{ theme.sogou_site_verification }}"/>
+{% endif %}
 
 {% if theme.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}" />
