@@ -260,7 +260,7 @@ duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: AHRF6FnSA1Skfdl3bWRVi2l88_MDvUHwzgUeuUfQqyo 
 sogou_site_verification: kCeD6iIyca
 baidu_site_verification: fG9XIkTI0Y
 qihu_site_verification: e7723e0b265664f01d5b979e8c588b38
@@ -305,18 +305,18 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
-  site_uv: true
+  site_uv: false
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_header: <i class="fa fa-eye"></i> 本站累计访问
+  site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa"></i> 阅读
   page_pv_footer:
 
 # Tencent analytics ID
